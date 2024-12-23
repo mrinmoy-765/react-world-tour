@@ -1,5 +1,12 @@
 .country{
-    border: 2px solid skyblue;
+    border: 2px solid rgb(33, 151, 197);
     margin: 15px;
     border-radius: 15px;
+}
+
+#button1{
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: aliceblue;
 }

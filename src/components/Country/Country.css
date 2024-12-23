@@ -4,9 +4,17 @@
     border-radius: 15px;
 }
 
-#button1{
+.button{
     padding: 10px;
     border-radius: 10px;
     margin-right: 10px;
     background-color: aliceblue;
+}
+
+.visited{
+    background: bisque;
+}
+
+.not-visted{
+    background: white;
 }

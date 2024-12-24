@@ -12,7 +12,7 @@ const Country = ({country,  handleVisitedCountry}) => {
         setVisited(!visited);
     }
  
-    console.log( handleVisitedCountry);
+
 
     return (
         //conditional css
@@ -22,7 +22,7 @@ const Country = ({country,  handleVisitedCountry}) => {
             <p>Population:{population}</p>
             <p>Area:{area}</p>
             <p><small>Code:{cca3}</small></p>
-            <button className="button">Mark visited</button>
+            <button className="button" onClick={() => handleVisitedCountry(country)}>Mark visited</button> <br />
             <button className="button" onClick={handleVisited}>{visited ? 'Visited' : 'Going'}</button>
             {visited ? 'I have visited this country.' : 'I want to visit this country.'}
         </div>
